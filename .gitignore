@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.iml
+/.idea/
+
+target
+version.txt
+.DS_Store
+.sdkmanrc
+# for EN-610
+/api-docs/.swagger-codegen
+/api-docs/.swagger-codegen-ignore
+README.md
+
+./bin
+.gradle
+build/
+
+*.private.*
