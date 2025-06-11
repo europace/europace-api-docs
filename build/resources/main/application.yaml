@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: swagger-aggregator
+
+swagger:
+  specs:
+    - name: Anträge API
+      path: antraege-api
+      url: https://raw.githubusercontent.com/europace/baufismart-antraege-api/master/swagger.yaml
+    - name: Ereignisse API
+      path: ereignisse-api
+      url: https://raw.githubusercontent.com/europace/baufismart-ereignisse-api/master/ereignisse-openapi.yaml
